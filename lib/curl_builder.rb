@@ -64,7 +64,7 @@ module CurlBuilder
     debug_symbols:      false,
     curldebug:          false,
     sdk_version:        "11.0",
-    osx_sdk_version:    "10.13",
+    osx_sdk_version:    "none", #none for iPhoneSimulator
     libcurl_version:    "7.56.0",
     architectures:      %w(armv7 arm64 x86_64),
     bitcode:            true,

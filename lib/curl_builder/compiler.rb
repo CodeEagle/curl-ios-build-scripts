@@ -105,7 +105,7 @@ module CurlBuilder
       if setup(:bitcode)
           embed_bitcode = "-fembed-bitcode"
       end
-      
+
       sdk_version = sdk_version_for platform
       sdk = "#{setup(:xcode_home)}/Platforms/#{platform}.platform/Developer/SDKs/#{platform}#{sdk_version}.sdk"
 
